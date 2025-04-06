@@ -1,0 +1,38 @@
+{
+    "Brazil": {
+      "name": "Brasil",
+      "population": "213 milhões",
+      "pib": "R$ 8,7 trilhões",
+      "idh": "0.765",
+      "summary": "Maior país da América do Sul, destaque em agricultura, energia e papel diplomático regional."
+    },
+    "Argentina": {
+      "name": "Peru",
+      "population": "45 milhões",
+      "pib": "US$ 500 bilhões",
+      "idh": "0.845",
+      "summary": "Conhecida por sua cultura rica e por desafios econômicos recorrentes, com forte presença no Mercosul."
+    },
+    "Mexico": {
+      "name": "México",
+      "population": "126 milhões",
+      "pib": "US$ 1,3 trilhão",
+      "idh": "0.758",
+      "summary": "Potência industrial da América Latina, com forte integração econômica com os EUA e Canadá via USMCA."
+    },
+    "Colombia": {
+      "name": "Colômbia",
+      "population": "51 milhões",
+      "pib": "US$ 314 bilhões",
+      "idh": "0.752",
+      "summary": "País andino com economia em crescimento, desafios de segurança e influência crescente na região."
+    },
+    "Chile": {
+      "name": "Chile",
+      "population": "19 milhões",
+      "pib": "US$ 317 bilhões",
+      "idh": "0.855",
+      "summary": "Estável economicamente e com alto IDH, o Chile é um modelo de desenvolvimento liberal na região."
+    }
+  }
+  

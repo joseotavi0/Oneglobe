@@ -25,12 +25,13 @@ html, body {
 }
 
 .sidebar h1 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+    font-size: 1.8em;
+    margin-bottom: 10px;
 }
 
 .sidebar ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .sidebar li {
@@ -40,6 +41,32 @@ html, body {
 .sidebar a {
     color: white;
     text-decoration: none;
+}
+
+.sidebar p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+    font-size: 0.95em;
+}
+
+.sidebar strong {
+    color: #ffc107;
+}
+
+.sidebar button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #ffc107;
+    color: #1e1e1e;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar button:hover {
+    background-color: #e0a800;
 }
 
 .map-container {
