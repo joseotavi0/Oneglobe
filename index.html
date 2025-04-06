@@ -1,0 +1,33 @@
+<!-- This is a simple HTML document that includes a Google Map. The map is centered on Belo Horizonte, Brazil. -->
+<!-- The map is initialized using the Google Maps JavaScript API. -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneGlobe</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #map{ width: 500px; height: 500px; background: #ddd; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h1>OneGlobe 🌍</h1>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </aside>
+        <main class="map-container">
+            <div id="map"></div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0Vm8JyrTEuvG0ZnjMOV78fF4fnBYwppQ&callback=initmap" async defer></script>
+</body>
+</html>
