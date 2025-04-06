@@ -77,3 +77,40 @@ html, body {
     width: 100%;
     height: 100%;
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .map-container {
+        width: 100%;
+        height: 100%;
+        flex: 1;
+    }
+
+    #map {
+        height: calc(100vh - 200px); /* Ajustável dependendo do conteúdo da sidebar */
+    }
+
+    .sidebar h1 {
+        font-size: 1.5em;
+    }
+
+    .sidebar p {
+        font-size: 0.9em;
+    }
+
+    .sidebar button {
+        width: 100%;
+        padding: 12px;
+        font-size: 1em;
+    }
+}

@@ -1,38 +1,1577 @@
 {
-    "Brazil": {
-      "name": "Brasil",
-      "population": "213 milhões",
-      "pib": "R$ 8,7 trilhões",
-      "idh": "0.765",
-      "summary": "Maior país da América do Sul, destaque em agricultura, energia e papel diplomático regional."
-    },
-    "Peru": {
-      "name": "Peru",
-      "population": "45 milhões",
-      "pib": "US$ 500 bilhões",
-      "idh": "0.845",
-      "summary": "Conhecida por sua cultura rica e por desafios econômicos recorrentes, com forte presença no Mercosul."
-    },
-    "Mexico": {
-      "name": "México",
-      "population": "126 milhões",
-      "pib": "US$ 1,3 trilhão",
-      "idh": "0.758",
-      "summary": "Potência industrial da América Latina, com forte integração econômica com os EUA e Canadá via USMCA."
-    },
-    "Colombia": {
-      "name": "Colômbia",
-      "population": "51 milhões",
-      "pib": "US$ 314 bilhões",
-      "idh": "0.752",
-      "summary": "País andino com economia em crescimento, desafios de segurança e influência crescente na região."
-    },
-    "Chile": {
-      "name": "Chile",
-      "population": "19 milhões",
-      "pib": "US$ 317 bilhões",
-      "idh": "0.855",
-      "summary": "Estável economicamente e com alto IDH, o Chile é um modelo de desenvolvimento liberal na região."
-    }
+  "Aruba": {
+    "name": "Aruba",
+    "population": "~107 mil",
+    "pib": "US$ 3,65 bilhões",
+    "idh": "N/A",
+    "summary": "País constituinte do Reino dos Países Baixos, ilha caribenha com economia focada no turismo."
+  },
+  "Afghanistan": {
+    "name": "Afeganistão",
+    "population": "~42 milhões",
+    "pib": "US$ 17,3 bilhões",
+    "idh": "0.462",
+    "summary": "País sem litoral na Ásia Central/Sul, enfrentando instabilidade e desafios humanitários."
+  },
+  "Angola": {
+    "name": "Angola",
+    "population": "~36 milhões",
+    "pib": "US$ 84,8 bilhões",
+    "idh": "0.591",
+    "summary": "Nação da África Austral, grande exportadora de petróleo e diamantes, em recuperação de guerra civil."
+  },
+  "Anguilla": {
+    "name": "Anguila",
+    "population": "~15 mil",
+    "pib": "US$ 311 milhões",
+    "idh": "N/A",
+    "summary": "Território Britânico Ultramarino no Caribe, conhecido pelo turismo de luxo e finanças offshore."
+  },
+  "Albania": {
+    "name": "Albânia",
+    "population": "~2,8 milhões",
+    "pib": "US$ 23 bilhões",
+    "idh": "0.789",
+    "summary": "País balcânico, candidato à UE, com economia em desenvolvimento e passado de isolamento."
+  },
+  "Andorra": {
+    "name": "Andorra",
+    "population": "~80 mil",
+    "pib": "US$ 3,3 bilhões",
+    "idh": "0.884",
+    "summary": "Pequeno principado nos Pireneus, entre França e Espanha, focado em turismo e comércio."
+  },
+  "United Arab Emirates": {
+    "name": "Emirados Árabes Unidos",
+    "population": "~9,5 milhões",
+    "pib": "US$ 509 bilhões",
+    "idh": "0.937",
+    "summary": "Federação de emirados na Península Arábica, centro financeiro e de transporte global, rico em petróleo."
+  },
+  "Argentina": {
+    "name": "Argentina",
+    "population": "~46 milhões",
+    "pib": "US$ 630 bilhões",
+    "idh": "0.849",
+    "summary": "Segundo maior país da América do Sul, conhecido pela cultura rica, agricultura e desafios econômicos."
+  },
+  "Armenia": {
+    "name": "Armênia",
+    "population": "~2,9 milhões",
+    "pib": "US$ 24 bilhões",
+    "idh": "0.786",
+    "summary": "País sem litoral no Cáucaso, com diáspora influente e tensões geopolíticas regionais."
+  },
+  "American Samoa": {
+    "name": "Samoa Americana",
+    "population": "~44 mil",
+    "pib": "US$ 711 milhões",
+    "idh": "N/A",
+    "summary": "Território não incorporado dos EUA na Polinésia, com economia baseada em pesca e conservas de atum."
+  },
+  "Antarctica": {
+    "name": "Antártica",
+    "population": "1-5 mil (sazonal)",
+    "pib": "N/A",
+    "idh": "N/A",
+    "summary": "Continente dedicado à paz e ciência por tratado, coberto de gelo, sem população permanente ou governo."
+  },
+  "French Southern and Antarctic Lands": {
+    "name": "Terras Austrais e Antárticas Francesas",
+    "population": "~200 (sazonal)",
+    "pib": "N/A",
+    "idh": "N/A",
+    "summary": "Território ultramarino francês disperso no Oceano Índico sul e Antártica, bases científicas."
+  },
+  "Antigua and Barbuda": {
+    "name": "Antígua e Barbuda",
+    "population": "~94 mil",
+    "pib": "US$ 2,1 bilhões",
+    "idh": "0.826",
+    "summary": "Nação insular no Caribe, membro da Commonwealth, economia dependente do turismo."
+  },
+  "Australia": {
+    "name": "Austrália",
+    "population": "~26 milhões",
+    "pib": "US$ 1,7 trilhão",
+    "idh": "0.946",
+    "summary": "País continental desenvolvido, rico em recursos naturais, com alta qualidade de vida."
+  },
+  "Austria": {
+    "name": "Áustria",
+    "population": "~9 milhões",
+    "pib": "US$ 530 bilhões",
+    "idh": "0.926",
+    "summary": "País alpino na Europa Central, membro da UE, conhecido pela cultura, turismo e indústria."
+  },
+  "Azerbaijan": {
+    "name": "Azerbaijão",
+    "population": "~10,4 milhões",
+    "pib": "US$ 77 bilhões",
+    "idh": "0.760",
+    "summary": "País transcontinental no Cáucaso, rico em petróleo e gás, com tensões regionais."
+  },
+  "Burundi": {
+    "name": "Burundi",
+    "population": "~13 milhões",
+    "pib": "US$ 3,3 bilhões",
+    "idh": "0.420",
+    "summary": "País sem litoral na África Oriental, densamente povoado, um dos mais pobres do mundo, desafios políticos."
+  },
+  "Belgium": {
+    "name": "Bélgica",
+    "population": "~11,7 milhões",
+    "pib": "US$ 630 bilhões",
+    "idh": "0.942",
+    "summary": "Reino na Europa Ocidental, sede da UE e OTAN, conhecido por sua complexidade política e cultural."
+  },
+  "Benin": {
+    "name": "Benim",
+    "population": "~13,7 milhões",
+    "pib": "US$ 19 bilhões",
+    "idh": "0.504",
+    "summary": "País da África Ocidental, berço do Vodu, economia baseada na agricultura e comércio."
+  },
+  "Burkina Faso": {
+    "name": "Burquina Faso",
+    "population": "~23 milhões",
+    "pib": "US$ 21 bilhões",
+    "idh": "0.438",
+    "summary": "País sem litoral na África Ocidental (Sahel), enfrenta desafios de segurança e pobreza."
+  },
+  "Bangladesh": {
+    "name": "Bangladesh",
+    "population": "~173 milhões",
+    "pib": "US$ 446 bilhões",
+    "idh": "0.670",
+    "summary": "País densamente povoado no Sul da Ásia, economia em crescimento (têxteis), vulnerável a mudanças climáticas."
+  },
+  "Bulgaria": {
+    "name": "Bulgária",
+    "population": "~6,7 milhões",
+    "pib": "US$ 100 bilhões",
+    "idh": "0.799",
+    "summary": "País balcânico, membro da UE, com desafios demográficos e econômicos."
+  },
+  "Bahrain": {
+    "name": "Barém",
+    "population": "~1,5 milhão",
+    "pib": "US$ 45 bilhões",
+    "idh": "0.888",
+    "summary": "Nação insular no Golfo Pérsico, centro financeiro regional, diversificando economia além do petróleo."
+  },
+  "Bahamas": {
+    "name": "Bahamas",
+    "population": "~410 mil",
+    "pib": "US$ 14 bilhões",
+    "idh": "0.820",
+    "summary": "Arquipélago no Atlântico, economia fortemente dependente do turismo e serviços financeiros."
+  },
+  "Bosnia and Herzegovina": {
+    "name": "Bósnia e Herzegovina",
+    "population": "~3,2 milhões",
+    "pib": "US$ 26 bilhões",
+    "idh": "0.779",
+    "summary": "País balcânico com estrutura política complexa (Acordo de Dayton), buscando integração europeia."
+  },
+  "Belarus": {
+    "name": "Bielorrússia",
+    "population": "~9,4 milhões",
+    "pib": "US$ 71 bilhões",
+    "idh": "0.801",
+    "summary": "País da Europa Oriental, com economia estatal e forte alinhamento político com a Rússia."
+  },
+  "Belize": {
+    "name": "Belize",
+    "population": "~410 mil",
+    "pib": "US$ 3 bilhões",
+    "idh": "0.700",
+    "summary": "País na América Central, único de língua inglesa na região, conhecido por recifes de coral e ruínas maias."
+  },
+  "Bermuda": {
+    "name": "Bermudas",
+    "population": "~64 mil",
+    "pib": "US$ 8 bilhões",
+    "idh": "N/A",
+    "summary": "Território Britânico Ultramarino no Atlântico Norte, centro global de seguros e resseguros."
+  },
+  "Bolivia": {
+    "name": "Bolívia",
+    "population": "~12,3 milhões",
+    "pib": "US$ 47 bilhões",
+    "idh": "0.698",
+    "summary": "País andino sem litoral, rico em recursos naturais (gás, lítio), com grande população indígena."
+  },
+  "Brazil": {
+    "name": "Brasil",
+    "population": "~215 milhões",
+    "pib": "US$ 2,17 trilhões",
+    "idh": "0.760",
+    "summary": "Maior país da América do Sul e Latina, potência agrícola e industrial, biodiversidade vasta (Amazônia)."
+  },
+  "Barbados": {
+    "name": "Barbados",
+    "population": "~282 mil",
+    "pib": "US$ 6,3 bilhões",
+    "idh": "0.809",
+    "summary": "Nação insular caribenha, recentemente tornou-se república, economia baseada em turismo e finanças."
+  },
+  "Brunei": {
+    "name": "Brunei",
+    "population": "~450 mil",
+    "pib": "US$ 15 bilhões",
+    "idh": "0.823",
+    "summary": "Sultanato rico em petróleo e gás na ilha de Bornéu, sudeste asiático."
+  },
+  "Bhutan": {
+    "name": "Butão",
+    "population": "~780 mil",
+    "pib": "US$ 3 bilhões",
+    "idh": "0.681",
+    "summary": "Reino budista isolado no Himalaia, conhecido pelo índice de Felicidade Interna Bruta (FIB)."
+  },
+  "Botswana": {
+    "name": "Botsuana",
+    "population": "~2,7 milhões",
+    "pib": "US$ 21 bilhões",
+    "idh": "0.708",
+    "summary": "País sem litoral na África Austral, economia dependente de diamantes, considerado exemplo de boa governança."
+  },
+  "Central African Republic": {
+    "name": "República Centro-Africana",
+    "population": "~5,7 milhões",
+    "pib": "US$ 2,4 bilhões",
+    "idh": "0.387",
+    "summary": "País sem litoral na África Central, rico em recursos, mas afetado por conflitos e instabilidade."
+  },
+  "Canada": {
+    "name": "Canadá",
+    "population": "~39 milhões",
+    "pib": "US$ 2,2 trilhões",
+    "idh": "0.935",
+    "summary": "Segundo maior país do mundo em área, economia desenvolvida, sociedade multicultural, recursos naturais."
+  },
+  "Switzerland": {
+    "name": "Suíça",
+    "population": "~8,8 milhões",
+    "pib": "US$ 905 bilhões",
+    "idh": "0.965",
+    "summary": "País alpino neutro, centro financeiro global, conhecido por qualidade de vida, inovação e democracia direta."
+  },
+  "Chile": {
+    "name": "Chile",
+    "population": "~19,6 milhões",
+    "pib": "US$ 310 bilhões",
+    "idh": "0.860",
+    "summary": "País longo e estreito na costa oeste da América do Sul, economia aberta, maior produtor de cobre."
+  },
+  "China": {
+    "name": "China",
+    "population": "~1,41 bilhão",
+    "pib": "US$ 18,5 trilhões",
+    "idh": "0.788",
+    "summary": "País mais populoso (ou segundo), segunda maior economia mundial, potência industrial e tecnológica."
+  },
+  "Ivory Coast": {
+    "name": "Costa do Marfim",
+    "population": "~29 milhões",
+    "pib": "US$ 81 bilhões",
+    "idh": "0.534",
+    "summary": "País da África Ocidental, maior produtor mundial de cacau, economia em crescimento pós-conflito."
+  },
+  "Cameroon": {
+    "name": "Camarões",
+    "population": "~29 milhões",
+    "pib": "US$ 48 bilhões",
+    "idh": "0.587",
+    "summary": "País da África Central, diversidade cultural e geográfica ('África em miniatura'), enfrenta tensões internas."
+  },
+  "Democratic Republic of the Congo": {
+    "name": "República Democrática do Congo",
+    "population": "~105 milhões",
+    "pib": "US$ 69 bilhões",
+    "idh": "0.481",
+    "summary": "Vasto país na África Central, rico em minerais, mas assolado por conflitos e pobreza."
+  },
+  "Republic of the Congo": {
+    "name": "República do Congo",
+    "population": "~6 milhões",
+    "pib": "US$ 15 bilhões",
+    "idh": "0.593",
+    "summary": "País da África Central, vizinho da RDC, economia dependente do petróleo."
+  },
+  "Cook Islands": {
+    "name": "Ilhas Cook",
+    "population": "~17 mil",
+    "pib": "US$ 310 milhões",
+    "idh": "N/A",
+    "summary": "Nação autônoma em livre associação com a Nova Zelândia, no Pacífico Sul, focada em turismo."
+  },
+  "Colombia": {
+    "name": "Colômbia",
+    "population": "~52 milhões",
+    "pib": "US$ 363 bilhões",
+    "idh": "0.758",
+    "summary": "País andino e caribenho, quarta maior economia da A. Latina, produtor de café e flores, superando conflitos."
+  },
+  "Comoros": {
+    "name": "Comores",
+    "population": "~850 mil",
+    "pib": "US$ 1,3 bilhão",
+    "idh": "0.586",
+    "summary": "Arquipélago vulcânico no Oceano Índico, entre Madagascar e Moçambique, enfrenta instabilidade política."
+  },
+  "Cape Verde": {
+    "name": "Cabo Verde",
+    "population": "~590 mil",
+    "pib": "US$ 2,3 bilhões",
+    "idh": "0.661",
+    "summary": "Arquipélago vulcânico no Atlântico, ex-colônia portuguesa, conhecido pela estabilidade e turismo."
+  },
+  "Costa Rica": {
+    "name": "Costa Rica",
+    "population": "~5,2 milhões",
+    "pib": "US$ 86 bilhões",
+    "idh": "0.806",
+    "summary": "País da América Central, conhecido pelo ecoturismo, estabilidade política e ausência de exército."
+  },
+  "Cuba": {
+    "name": "Cuba",
+    "population": "~11 milhões",
+    "pib": "US$ 107 bilhões (estimativa, dados limitados)",
+    "idh": "0.764",
+    "summary": "Nação insular socialista no Caribe, conhecida por charutos, música e sistema de saúde, sob embargo dos EUA."
+  },
+  "Curacao": {
+    "name": "Curação",
+    "population": "~150 mil",
+    "pib": "US$ 3,1 bilhões",
+    "idh": "N/A",
+    "summary": "País constituinte do Reino dos Países Baixos, ilha caribenha com refinaria de petróleo e turismo."
+  },
+  "Cayman Islands": {
+    "name": "Ilhas Caimão",
+    "population": "~80 mil",
+    "pib": "US$ 6,8 bilhões",
+    "idh": "N/A",
+    "summary": "Território Britânico Ultramarino no Caribe, importante centro financeiro offshore global."
+  },
+  "Cyprus": {
+    "name": "Chipre",
+    "population": "~1,25 milhão",
+    "pib": "US$ 32 bilhões",
+    "idh": "0.907",
+    "summary": "Nação insular no Mediterrâneo Oriental, membro da UE, dividida entre a República de Chipre e a zona ocupada pela Turquia."
+  },
+  "Czech Republic": {
+    "name": "República Tcheca",
+    "population": "~10,8 milhões",
+    "pib": "US$ 336 bilhões",
+    "idh": "0.895",
+    "summary": "País sem litoral na Europa Central, membro da UE, com indústria forte e rica história cultural."
+  },
+  "Germany": {
+    "name": "Alemanha",
+    "population": "~84 milhões",
+    "pib": "US$ 4,4 trilhões",
+    "idh": "0.950",
+    "summary": "Maior economia da Europa, potência industrial e exportadora, papel central na União Europeia."
+  },
+  "Djibouti": {
+    "name": "Djibuti",
+    "population": "~1,1 milhão",
+    "pib": "US$ 4 bilhões",
+    "idh": "0.515",
+    "summary": "Pequeno país no Chifre da África, localização estratégica (estreito de Bab-el-Mandeb), abriga bases militares estrangeiras."
+  },
+  "Dominica": {
+    "name": "Dominica",
+    "population": "~73 mil",
+    "pib": "US$ 700 milhões",
+    "idh": "0.740",
+    "summary": "Nação insular montanhosa no Caribe ('Ilha da Natureza'), vulnerável a furacões, focada em ecoturismo."
+  },
+  "Denmark": {
+    "name": "Dinamarca",
+    "population": "~5,9 milhões",
+    "pib": "US$ 410 bilhões",
+    "idh": "0.952",
+    "summary": "Reino escandinavo, membro da UE, conhecido por alto padrão de vida, design e energias renováveis."
+  },
+  "Dominican Republic": {
+    "name": "República Dominicana",
+    "population": "~11,3 milhões",
+    "pib": "US$ 120 bilhões",
+    "idh": "0.766",
+    "summary": "País caribenho que ocupa parte da ilha Hispaniola, economia baseada em turismo, remessas e agricultura."
+  },
+  "Algeria": {
+    "name": "Argélia",
+    "population": "~45 milhões",
+    "pib": "US$ 224 bilhões",
+    "idh": "0.745",
+    "summary": "Maior país da África em área, no Norte da África, economia dependente de hidrocarbonetos (gás e petróleo)."
+  },
+  "Ecuador": {
+    "name": "Equador",
+    "population": "~18 milhões",
+    "pib": "US$ 118 bilhões",
+    "idh": "0.765",
+    "summary": "País andino na linha do equador, exportador de petróleo, bananas e camarão, biodiversidade (Galápagos)."
+  },
+  "Egypt": {
+    "name": "Egito",
+    "population": "~112 milhões",
+    "pib": "US$ 387 bilhões",
+    "idh": "0.728",
+    "summary": "País transcontinental (África/Ásia), berço de civilização antiga, importância estratégica (Canal de Suez)."
+  },
+  "Eritrea": {
+    "name": "Eritreia",
+    "population": "~3,7 milhões",
+    "pib": "US$ 2,1 bilhões (estimativa)",
+    "idh": "0.493",
+    "summary": "País no Chifre da África, governo autoritário, isolado internacionalmente, desafios de direitos humanos."
+  },
+  "Spain": {
+    "name": "Espanha",
+    "population": "~48 milhões",
+    "pib": "US$ 1,6 trilhão",
+    "idh": "0.911",
+    "summary": "Reino na Península Ibérica, membro da UE, economia focada em turismo, serviços e indústria, rica cultura regional."
+  },
+  "Estonia": {
+    "name": "Estônia",
+    "population": "~1,3 milhão",
+    "pib": "US$ 42 bilhões",
+    "idh": "0.899",
+    "summary": "País báltico, membro da UE e OTAN, conhecido por seu governo digital avançado e setor de tecnologia."
+  },
+  "Ethiopia": {
+    "name": "Etiópia",
+    "population": "~126 milhões",
+    "pib": "US$ 156 bilhões",
+    "idh": "0.492",
+    "summary": "País sem litoral no Chifre da África, um dos mais populosos do continente, desafios de conflitos internos e desenvolvimento."
+  },
+  "Finland": {
+    "name": "Finlândia",
+    "population": "~5,6 milhões",
+    "pib": "US$ 308 bilhões",
+    "idh": "0.942",
+    "summary": "País nórdico, membro da UE e OTAN, conhecido pela educação, tecnologia (Nokia) e alta qualidade de vida ('país mais feliz')."
+  },
+  "Fiji": {
+    "name": "Fiji",
+    "population": "~930 mil",
+    "pib": "US$ 5,5 bilhões",
+    "idh": "0.729",
+    "summary": "Nação insular na Melanésia (Pacífico Sul), economia dependente de turismo e açúcar, instabilidade política histórica."
+  },
+  "Falkland Islands": {
+    "name": "Ilhas Malvinas (Falkland)",
+    "population": "~3,6 mil",
+    "pib": "US$ 300 milhões (estimativa)",
+    "idh": "N/A",
+    "summary": "Território Britânico Ultramarino no Atlântico Sul, objeto de disputa de soberania com a Argentina, economia baseada em pesca e turismo."
+  },
+  "France": {
+    "name": "França",
+    "population": "~68 milhões",
+    "pib": "US$ 3,1 trilhões",
+    "idh": "0.910",
+    "summary": "República na Europa Ocidental, membro permanente do CS da ONU, potência nuclear, influência cultural global."
+  },
+  "Faroe Islands": {
+    "name": "Ilhas Faroé",
+    "population": "~53 mil",
+    "pib": "US$ 3,7 bilhões",
+    "idh": "N/A",
+    "summary": "Território autônomo do Reino da Dinamarca no Atlântico Norte, economia fortemente dependente da pesca."
+  },
+  "Federated States of Micronesia": {
+    "name": "Estados Federados da Micronésia",
+    "population": "~104 mil",
+    "pib": "US$ 427 milhões",
+    "idh": "0.634",
+    "summary": "País insular no Pacífico Ocidental, em livre associação com os EUA, composto por 4 estados."
+  },
+  "Gabon": {
+    "name": "Gabão",
+    "population": "~2,4 milhões",
+    "pib": "US$ 21 bilhões",
+    "idh": "0.693",
+    "summary": "País na costa atlântica da África Central, rico em petróleo e florestas, alta renda per capita (para a região) mas desigual."
+  },
+  "United Kingdom": {
+    "name": "Reino Unido",
+    "population": "~67,7 milhões",
+    "pib": "US$ 3,38 trilhões",
+    "idh": "0.929",
+    "summary": "Nação insular na Europa Ocidental, monarquia constitucional, centro financeiro global, membro permanente do CS da ONU."
+  },
+  "Georgia": {
+    "name": "Geórgia",
+    "population": "~3,7 milhões",
+    "pib": "US$ 30 bilhões",
+    "idh": "0.814",
+    "summary": "País na interseção da Europa Oriental e Ásia Ocidental (Cáucaso), aspirações de integração euro-atlântica, conflitos separatistas."
+  },
+  "Ghana": {
+    "name": "Gana",
+    "population": "~34 milhões",
+    "pib": "US$ 76 bilhões",
+    "idh": "0.602",
+    "summary": "País da África Ocidental, conhecido pela estabilidade democrática (na região), produtor de cacau, ouro e petróleo."
+  },
+  "Guinea": {
+    "name": "Guiné",
+    "population": "~14 milhões",
+    "pib": "US$ 23 bilhões",
+    "idh": "0.471",
+    "summary": "País da África Ocidental, rico em bauxita, mas com desafios de governança e desenvolvimento."
+  },
+  "Gambia": {
+    "name": "Gâmbia",
+    "population": "~2,8 milhões",
+    "pib": "US$ 2,3 bilhões",
+    "idh": "0.495",
+    "summary": "Menor país da África continental, enclave dentro do Senegal (exceto costa), economia baseada em turismo e agricultura."
+  },
+  "Guinea-Bissau": {
+    "name": "Guiné-Bissau",
+    "population": "~2,1 milhões",
+    "pib": "US$ 1,8 bilhão",
+    "idh": "0.483",
+    "summary": "País lusófono da África Ocidental, enfrenta instabilidade política crônica e desafios de narcotráfico."
+  },
+  "Equatorial Guinea": {
+    "name": "Guiné Equatorial",
+    "population": "~1,7 milhão",
+    "pib": "US$ 11 bilhões",
+    "idh": "0.650",
+    "summary": "País da África Central, rico em petróleo, mas com alta desigualdade e governo autoritário."
+  },
+  "Greece": {
+    "name": "Grécia",
+    "population": "~10,4 milhões",
+    "pib": "US$ 242 bilhões",
+    "idh": "0.893",
+    "summary": "País no sudeste da Europa (Balcãs), berço da democracia e filosofia ocidental, membro da UE, economia em recuperação."
+  },
+  "Grenada": {
+    "name": "Granada",
+    "population": "~126 mil",
+    "pib": "US$ 1,3 bilhão",
+    "idh": "0.793",
+    "summary": "Nação insular caribenha ('Ilha das Especiarias'), conhecida pela noz-moscada, economia baseada em turismo e agricultura."
+  },
+  "Greenland": {
+    "name": "Groenlândia",
+    "population": "~57 mil",
+    "pib": "US$ 3 bilhões",
+    "idh": "N/A",
+    "summary": "Maior ilha do mundo, território autônomo do Reino da Dinamarca, população majoritariamente Inuit, impacto das mudanças climáticas."
+  },
+  "Guatemala": {
+    "name": "Guatemala",
+    "population": "~18 milhões",
+    "pib": "US$ 102 bilhões",
+    "idh": "0.629",
+    "summary": "País mais populoso da América Central, rica cultura maia, enfrenta desafios de pobreza, violência e desigualdade."
+  },
+  "Guam": {
+    "name": "Guam",
+    "population": "~170 mil",
+    "pib": "US$ 6,3 bilhões",
+    "idh": "N/A",
+    "summary": "Território não incorporado dos EUA na Micronésia (Pacífico Ocidental), importante base militar americana, turismo."
+  },
+  "Guyana": {
+    "name": "Guiana",
+    "population": "~800 mil",
+    "pib": "US$ 16 bilhões (crescimento rápido devido ao petróleo)",
+    "idh": "0.742",
+    "summary": "País na costa norte da América do Sul, membro da CARICOM, experimentando boom econômico com descobertas de petróleo."
+  },
+  "Hong Kong": {
+    "name": "Hong Kong",
+    "population": "~7,5 milhões",
+    "pib": "US$ 385 bilhões",
+    "idh": "0.956",
+    "summary": "Região Administrativa Especial da China, centro financeiro global, com autonomia reduzida nos últimos anos."
+  },
+  "Honduras": {
+    "name": "Honduras",
+    "population": "~10,5 milhões",
+    "pib": "US$ 34 bilhões",
+    "idh": "0.624",
+    "summary": "País da América Central, enfrenta altos níveis de pobreza, violência e emigração."
+  },
+  "Croatia": {
+    "name": "Croácia",
+    "population": "~3,8 milhões",
+    "pib": "US$ 80 bilhões",
+    "idh": "0.878",
+    "summary": "País balcânico na costa do Adriático, membro da UE e da Zona do Euro, popular destino turístico."
+  },
+  "Haiti": {
+    "name": "Haiti",
+    "population": "~11,7 milhões",
+    "pib": "US$ 19 bilhões",
+    "idh": "0.552",
+    "summary": "País caribenho na ilha Hispaniola, primeira república negra independente, enfrenta pobreza extrema, instabilidade política e desastres naturais."
+  },
+  "Hungary": {
+    "name": "Hungria",
+    "population": "~9,6 milhões",
+    "pib": "US$ 210 bilhões",
+    "idh": "0.851",
+    "summary": "País sem litoral na Europa Central, membro da UE, com governo nacionalista e tensões com Bruxelas."
+  },
+  "Indonesia": {
+    "name": "Indonésia",
+    "population": "~277 milhões",
+    "pib": "US$ 1,4 trilhão",
+    "idh": "0.713",
+    "summary": "Maior arquipélago do mundo, maior país muçulmano em população, quarta nação mais populosa, economia emergente do G20."
+  },
+  "Isle of Man": {
+    "name": "Ilha de Man",
+    "population": "~84 mil",
+    "pib": "US$ 7,5 bilhões",
+    "idh": "N/A",
+    "summary": "Dependência da Coroa Britânica no Mar da Irlanda, governo próprio, centro financeiro offshore."
+  },
+  "India": {
+    "name": "Índia",
+    "population": "~1,43 bilhão",
+    "pib": "US$ 3,7 trilhões",
+    "idh": "0.644",
+    "summary": "País mais populoso do mundo, maior democracia, economia de crescimento rápido, potência nuclear e espacial."
+  },
+  "British Indian Ocean Territory": {
+    "name": "Território Britânico do Oceano Índico",
+    "population": "~3 mil (militares e contratados)",
+    "pib": "N/A",
+    "idh": "N/A",
+    "summary": "Território Britânico Ultramarino (Arquipélago de Chagos), abriga base militar dos EUA/Reino Unido (Diego Garcia), população original deportada."
+  },
+  "Ireland": {
+    "name": "Irlanda",
+    "population": "~5,1 milhões",
+    "pib": "US$ 594 bilhões",
+    "idh": "0.950",
+    "summary": "República insular na Europa Ocidental, membro da UE, centro de tecnologia e finanças (impostos corporativos baixos)."
+  },
+  "Iran": {
+    "name": "Irã",
+    "population": "~89 milhões",
+    "pib": "US$ 413 bilhões",
+    "idh": "0.780",
+    "summary": "República Islâmica na Ásia Ocidental (Oriente Médio), rica em petróleo e gás, influência regional, tensões com o Ocidente."
+  },
+  "Iraq": {
+    "name": "Iraque",
+    "population": "~45 milhões",
+    "pib": "US$ 267 bilhões",
+    "idh": "0.673",
+    "summary": "País do Oriente Médio, rico em petróleo, em reconstrução após décadas de conflito e instabilidade."
+  },
+  "Iceland": {
+    "name": "Islândia",
+    "population": "~380 mil",
+    "pib": "US$ 31 bilhões",
+    "idh": "0.959",
+    "summary": "Nação insular nórdica no Atlântico Norte, conhecida por paisagens vulcânicas, energia geotérmica e alta qualidade de vida."
+  },
+  "Israel": {
+    "name": "Israel",
+    "population": "~9,7 milhões",
+    "pib": "US$ 525 bilhões",
+    "idh": "0.915",
+    "summary": "País no Oriente Médio, centro de tecnologia ('Silicon Wadi'), em conflito prolongado com palestinos e vizinhos."
+  },
+  "Italy": {
+    "name": "Itália",
+    "population": "~59 milhões",
+    "pib": "US$ 2,2 trilhões",
+    "idh": "0.906",
+    "summary": "República na Península Itálica, membro fundador da UE, terceira maior economia da Zona do Euro, rica herança cultural."
+  },
+  "Jamaica": {
+    "name": "Jamaica",
+    "population": "~2,8 milhões",
+    "pib": "US$ 19 bilhões",
+    "idh": "0.706",
+    "summary": "Nação insular caribenha, conhecida pela música reggae, atletismo e turismo, desafios de violência."
+  },
+  "Jordan": {
+    "name": "Jordânia",
+    "population": "~11,3 milhões",
+    "pib": "US$ 52 bilhões",
+    "idh": "0.736",
+    "summary": "Reino Hachemita no Oriente Médio, considerado um oásis de estabilidade na região, abriga muitos refugiados."
+  },
+  "Japan": {
+    "name": "Japão",
+    "population": "~124 milhões",
+    "pib": "US$ 4,2 trilhões",
+    "idh": "0.920",
+    "summary": "Nação insular na Ásia Oriental, terceira maior economia mundial, líder em tecnologia e indústria, enfrenta envelhecimento populacional."
+  },
+  "Kazakhstan": {
+    "name": "Cazaquistão",
+    "population": "~19,6 milhões",
+    "pib": "US$ 260 bilhões",
+    "idh": "0.802",
+    "summary": "Maior país sem litoral do mundo, na Ásia Central, rico em recursos (petróleo, urânio), influência regional."
+  },
+  "Kenya": {
+    "name": "Quênia",
+    "population": "~55 milhões",
+    "pib": "US$ 118 bilhões",
+    "idh": "0.601",
+    "summary": "País da África Oriental, centro econômico e de transporte regional, conhecido pela vida selvagem e atletismo."
+  },
+  "Kyrgyzstan": {
+    "name": "Quirguistão",
+    "population": "~7 milhões",
+    "pib": "US$ 13 bilhões",
+    "idh": "0.701",
+    "summary": "País montanhoso sem litoral na Ásia Central, desafios econômicos e instabilidade política histórica."
+  },
+  "Cambodia": {
+    "name": "Camboja",
+    "population": "~17 milhões",
+    "pib": "US$ 31 bilhões",
+    "idh": "0.600",
+    "summary": "Reino no Sudeste Asiático, conhecido pelos templos de Angkor Wat, economia em crescimento (têxteis, turismo), passado de genocídio."
+  },
+  "Kiribati": {
+    "name": "Kiribati",
+    "population": "~130 mil",
+    "pib": "US$ 246 milhões",
+    "idh": "0.628",
+    "summary": "Nação insular de atóis no Pacífico Central, extremamente vulnerável à elevação do nível do mar."
+  },
+  "Saint Kitts and Nevis": {
+    "name": "São Cristóvão e Neves",
+    "population": "~48 mil",
+    "pib": "US$ 1,1 bilhão",
+    "idh": "0.778",
+    "summary": "Federação de duas ilhas no Caribe, menor país soberano das Américas, programa de cidadania por investimento."
+  },
+  "South Korea": {
+    "name": "Coreia do Sul",
+    "population": "~51,7 milhões",
+    "pib": "US$ 1,7 trilhão",
+    "idh": "0.929",
+    "summary": "República na península coreana, potência econômica e tecnológica global (Samsung, Hyundai), cultura pop influente (K-pop)."
+  },
+  "Kosovo": {
+    "name": "Kosovo",
+    "population": "~1,8 milhão",
+    "pib": "US$ 10 bilhões",
+    "idh": "0.786 (estimativa)",
+    "summary": "República autodeclarada nos Balcãs, reconhecimento internacional parcial, tensões com a Sérvia."
+  },
+  "Kuwait": {
+    "name": "Kuwait",
+    "population": "~4,3 milhões",
+    "pib": "US$ 160 bilhões",
+    "idh": "0.847",
+    "summary": "Emirado rico em petróleo no Golfo Pérsico, moeda forte, grande população expatriada."
+  },
+  "Laos": {
+    "name": "Laos",
+    "population": "~7,6 milhões",
+    "pib": "US$ 14 bilhões",
+    "idh": "0.620",
+    "summary": "País socialista sem litoral no Sudeste Asiático, economia em desenvolvimento, dependente de recursos naturais e vizinhos."
+  },
+  "Lebanon": {
+    "name": "Líbano",
+    "population": "~5,4 milhões (exclui refugiados)",
+    "pib": "US$ 23 bilhões (crise severa)",
+    "idh": "0.723",
+    "summary": "País no Levante (Mediterrâneo Oriental), enfrenta grave crise econômica e política, alta população de refugiados."
+  },
+  "Liberia": {
+    "name": "Libéria",
+    "population": "~5,4 milhões",
+    "pib": "US$ 4,4 bilhões",
+    "idh": "0.487",
+    "summary": "País da África Ocidental fundado por escravos libertos dos EUA, em recuperação de guerras civis."
+  },
+  "Libya": {
+    "name": "Líbia",
+    "population": "~7,2 milhões",
+    "pib": "US$ 40 bilhões",
+    "idh": "0.746",
+    "summary": "País do Norte da África rico em petróleo, fragmentado politicamente e com instabilidade desde 2011."
+  },
+  "Saint Lucia": {
+    "name": "Santa Lúcia",
+    "population": "~180 mil",
+    "pib": "US$ 2,3 bilhões",
+    "idh": "0.715",
+    "summary": "Nação insular vulcânica no Caribe Oriental, conhecida pelos Pitons, economia baseada em turismo e agricultura."
+  },
+  "Liechtenstein": {
+    "name": "Liechtenstein",
+    "population": "~39 mil",
+    "pib": "US$ 7 bilhões",
+    "idh": "0.942",
+    "summary": "Microestado alpino entre Suíça e Áustria, principado com alto PIB per capita, centro financeiro."
+  },
+  "Sri Lanka": {
+    "name": "Sri Lanka",
+    "population": "~22 milhões",
+    "pib": "US$ 74 bilhões",
+    "idh": "0.780",
+    "summary": "Nação insular ao sul da Índia, conhecida pelo chá e turismo, recuperando-se de crise econômica e guerra civil passada."
+  },
+  "Lesotho": {
+    "name": "Lesoto",
+    "population": "~2,3 milhões",
+    "pib": "US$ 2,2 bilhões",
+    "idh": "0.521",
+    "summary": "Reino montanhoso que é um enclave dentro da África do Sul, economia dependente do vizinho, exporta água e diamantes."
+  },
+  "Lithuania": {
+    "name": "Lituânia",
+    "population": "~2,8 milhões",
+    "pib": "US$ 78 bilhões",
+    "idh": "0.879",
+    "summary": "País báltico, membro da UE e OTAN, economia dinâmica com foco em tecnologia e serviços."
+  },
+  "Luxembourg": {
+    "name": "Luxemburgo",
+    "population": "~650 mil",
+    "pib": "US$ 87 bilhões",
+    "idh": "0.927",
+    "summary": "Grão-Ducado na Europa Ocidental, membro fundador da UE, importante centro financeiro e institucional europeu, alto PIB per capita."
+  },
+  "Latvia": {
+    "name": "Letônia",
+    "population": "~1,8 milhão",
+    "pib": "US$ 45 bilhões",
+    "idh": "0.879",
+    "summary": "País báltico, membro da UE e OTAN, com desafios demográficos e economia em transição."
+  },
+  "Macau": {
+    "name": "Macau",
+    "population": "~700 mil",
+    "pib": "US$ 35 bilhões",
+    "idh": "N/A",
+    "summary": "Região Administrativa Especial da China, ex-colônia portuguesa, maior centro de jogos de azar do mundo."
+  },
+  "Morocco": {
+    "name": "Marrocos",
+    "population": "~38 milhões",
+    "pib": "US$ 140 bilhões",
+    "idh": "0.698",
+    "summary": "Reino no Norte da África, com costas no Atlântico e Mediterrâneo, economia diversificada (turismo, agricultura, fosfatos), disputa pelo Saara Ocidental."
+  },
+  "Monaco": {
+    "name": "Mônaco",
+    "population": "~36 mil",
+    "pib": "US$ 8,6 bilhões",
+    "idh": "N/A",
+    "summary": "Microestado principado na Riviera Francesa, conhecido por cassinos, Grande Prêmio de F1 e por ser um paraíso fiscal."
+  },
+  "Moldova": {
+    "name": "Moldávia",
+    "population": "~2,5 milhões (exclui Transnístria)",
+    "pib": "US$ 15 bilhões",
+    "idh": "0.763",
+    "summary": "País sem litoral na Europa Oriental, entre Romênia e Ucrânia, um dos mais pobres da Europa, região separatista (Transnístria)."
+  },
+  "Madagascar": {
+    "name": "Madagascar",
+    "population": "~30 milhões",
+    "pib": "US$ 16 bilhões",
+    "idh": "0.487",
+    "summary": "Grande ilha na costa sudeste da África, biodiversidade única, enfrenta pobreza e desafios ambientais."
+  },
+  "Maldives": {
+    "name": "Maldivas",
+    "population": "~520 mil",
+    "pib": "US$ 6,9 bilhões",
+    "idh": "0.762",
+    "summary": "Arquipélago de atóis no Oceano Índico, conhecido por resorts de luxo, vulnerável à elevação do nível do mar."
+  },
+  "Mexico": {
+    "name": "México",
+    "population": "~128 milhões",
+    "pib": "US$ 1,8 trilhão",
+    "idh": "0.781",
+    "summary": "País na América do Norte, segunda maior economia da A. Latina, forte integração com EUA/Canadá (USMCA), rica herança cultural."
+  },
+  "Marshall Islands": {
+    "name": "Ilhas Marshall",
+    "population": "~42 mil",
+    "pib": "US$ 280 milhões",
+    "idh": "0.731",
+    "summary": "República insular no Pacífico (Micronésia), em livre associação com os EUA, local de testes nucleares americanos no passado."
+  },
+  "North Macedonia": {
+    "name": "Macedônia do Norte",
+    "population": "~2 milhões",
+    "pib": "US$ 14 bilhões",
+    "idh": "0.765",
+    "summary": "País balcânico sem litoral, candidato à UE, mudou de nome para resolver disputa com a Grécia."
+  },
+  "Mali": {
+    "name": "Mali",
+    "population": "~23 milhões",
+    "pib": "US$ 20 bilhões",
+    "idh": "0.410",
+    "summary": "País sem litoral na África Ocidental (Sahel), rico em história (Império do Mali), enfrenta insurgência islamista e instabilidade."
+  },
+  "Malta": {
+    "name": "Malta",
+    "population": "~530 mil",
+    "pib": "US$ 20 bilhões",
+    "idh": "0.915",
+    "summary": "Nação insular no Mediterrâneo central, membro da UE, economia baseada em turismo, finanças e jogos online."
+  },
+  "Myanmar": {
+    "name": "Mianmar",
+    "population": "~54 milhões",
+    "pib": "US$ 62 bilhões",
+    "idh": "0.585",
+    "summary": "País do Sudeste Asiático (antiga Birmânia), sob regime militar após golpe, conflitos étnicos e crise humanitária."
+  },
+  "Montenegro": {
+    "name": "Montenegro",
+    "population": "~620 mil",
+    "pib": "US$ 7 bilhões",
+    "idh": "0.844",
+    "summary": "Pequeno país balcânico na costa do Adriático, membro da OTAN e candidato à UE, economia focada no turismo."
+  },
+  "Mongolia": {
+    "name": "Mongólia",
+    "population": "~3,4 milhões",
+    "pib": "US$ 18 bilhões",
+    "idh": "0.739",
+    "summary": "País sem litoral entre Rússia e China, vasta estepe, economia dependente de mineração, tradição nômade."
+  },
+  "Northern Mariana Islands": {
+    "name": "Ilhas Marianas do Norte",
+    "population": "~51 mil",
+    "pib": "US$ 1,1 bilhão",
+    "idh": "N/A",
+    "summary": "Comunidade (Commonwealth) em união política com os EUA, no Pacífico Ocidental (Micronésia)."
+  },
+  "Mozambique": {
+    "name": "Moçambique",
+    "population": "~34 milhões",
+    "pib": "US$ 20 bilhões",
+    "idh": "0.461",
+    "summary": "País lusófono na costa sudeste da África, grandes reservas de gás natural, enfrenta insurgência no norte e pobreza."
+  },
+  "Mauritania": {
+    "name": "Mauritânia",
+    "population": "~4,8 milhões",
+    "pib": "US$ 10 bilhões",
+    "idh": "0.540",
+    "summary": "País na África Ocidental (Saara/Sahel), economia baseada em minério de ferro e pesca, último país a abolir a escravidão (formalmente)."
+  },
+  "Montserrat": {
+    "name": "Montserrat",
+    "population": "~4,4 mil",
+    "pib": "US$ 60 milhões (estimativa)",
+    "idh": "N/A",
+    "summary": "Território Britânico Ultramarino no Caribe, afetado por erupção vulcânica que devastou a capital."
+  },
+  "Malawi": {
+    "name": "Malaui",
+    "population": "~21 milhões",
+    "pib": "US$ 7 bilhões",
+    "idh": "0.508",
+    "summary": "País sem litoral na África Austral/Oriental, economia agrícola (tabaco), enfrenta pobreza e insegurança alimentar."
+  },
+  "Malaysia": {
+    "name": "Malásia",
+    "population": "~34 milhões",
+    "pib": "US$ 430 bilhões",
+    "idh": "0.807",
+    "summary": "País do Sudeste Asiático, economia emergente diversificada (eletrônicos, petróleo, óleo de palma), sociedade multicultural."
+  },
+  "Namibia": {
+    "name": "Namíbia",
+    "population": "~2,6 milhões",
+    "pib": "US$ 13 bilhões",
+    "idh": "0.614",
+    "summary": "País na África Austral, vasto e pouco povoado (deserto da Namíbia), rico em diamantes e urânio, turismo crescente."
+  },
+  "New Caledonia": {
+    "name": "Nova Caledônia",
+    "population": "~270 mil",
+    "pib": "US$ 10 bilhões",
+    "idh": "N/A",
+    "summary": "Coletividade especial francesa na Melanésia (Pacífico), rica em níquel, debates sobre independência."
+  },
+  "Niger": {
+    "name": "Níger",
+    "population": "~27 milhões",
+    "pib": "US$ 16 bilhões",
+    "idh": "0.394",
+    "summary": "País sem litoral na África Ocidental (Sahel), um dos mais pobres e com menor IDH do mundo, recente golpe militar."
+  },
+  "Nigeria": {
+    "name": "Nigéria",
+    "population": "~223 milhões",
+    "pib": "US$ 477 bilhões",
+    "idh": "0.548",
+    "summary": "País mais populoso da África e maior economia (PIB), grande produtor de petróleo, enfrenta desafios de segurança e corrupção."
+  },
+  "Nicaragua": {
+    "name": "Nicarágua",
+    "population": "~7 milhões",
+    "pib": "US$ 17 bilhões",
+    "idh": "0.669",
+    "summary": "País da América Central, enfrenta crise política e de direitos humanos sob governo autoritário."
+  },
+  "Netherlands": {
+    "name": "Países Baixos (Holanda)",
+    "population": "~17,8 milhões",
+    "pib": "US$ 1,1 trilhão",
+    "idh": "0.946",
+    "summary": "Reino na Europa Ocidental, densamente povoado, economia aberta e avançada (comércio, agricultura), gestão hídrica."
+  },
+  "Norway": {
+    "name": "Noruega",
+    "population": "~5,5 milhões",
+    "pib": "US$ 505 bilhões",
+    "idh": "0.966",
+    "summary": "Reino escandinavo, rico em petróleo e gás (fundo soberano), alto padrão de vida e IDH."
+  },
+  "Nepal": {
+    "name": "Nepal",
+    "population": "~31 milhões",
+    "pib": "US$ 44 bilhões",
+    "idh": "0.601",
+    "summary": "País sem litoral no Himalaia (inclui Monte Everest), economia dependente de agricultura, remessas e turismo."
+  },
+  "Nauru": {
+    "name": "Nauru",
+    "population": "~11 mil",
+    "pib": "US$ 150 milhões",
+    "idh": "N/A",
+    "summary": "Microestado insular na Micronésia, dependente de ajuda externa e do centro de detenção de imigrantes da Austrália, passado de mineração de fosfato."
+  },
+  "New Zealand": {
+    "name": "Nova Zelândia",
+    "population": "~5,2 milhões",
+    "pib": "US$ 250 bilhões",
+    "idh": "0.939",
+    "summary": "Nação insular desenvolvida no Pacífico Sul, conhecida por paisagens naturais, agricultura (laticínios) e qualidade de vida."
+  },
+  "Oman": {
+    "name": "Omã",
+    "population": "~4,6 milhões",
+    "pib": "US$ 110 bilhões",
+    "idh": "0.819",
+    "summary": "Sultanato na costa sudeste da Península Arábica, economia baseada em petróleo, buscando diversificação, papel diplomático discreto."
+  },
+  "Pakistan": {
+    "name": "Paquistão",
+    "population": "~240 milhões",
+    "pib": "US$ 340 bilhões",
+    "idh": "0.540",
+    "summary": "País populoso no Sul da Ásia, potência nuclear, desafios econômicos, políticos e de segurança."
+  },
+  "Panama": {
+    "name": "Panamá",
+    "population": "~4,5 milhões",
+    "pib": "US$ 83 bilhões",
+    "idh": "0.820",
+    "summary": "País na América Central, localização estratégica (Canal do Panamá), centro financeiro e logístico."
+  },
+  "Peru": {
+    "name": "Peru",
+    "population": "~34 milhões",
+    "pib": "US$ 264 bilhões",
+    "idh": "0.758",
+    "summary": "País andino na América do Sul, rico em história (Império Inca) e recursos minerais, enfrenta instabilidade política."
+  },
+  "Philippines": {
+    "name": "Filipinas",
+    "population": "~117 milhões",
+    "pib": "US$ 436 bilhões",
+    "idh": "0.710",
+    "summary": "Arquipélago no Sudeste Asiático, economia em crescimento impulsionada por serviços e remessas, vulnerável a tufões."
+  },
+  "Palau": {
+    "name": "Palau",
+    "population": "~18 mil",
+    "pib": "US$ 268 milhões",
+    "idh": "0.791",
+    "summary": "República insular na Micronésia (Pacífico Ocidental), em livre associação com os EUA, focada em turismo e conservação marinha."
+  },
+  "Papua New Guinea": {
+    "name": "Papua-Nova Guiné",
+    "population": "~10 milhões",
+    "pib": "US$ 31 bilhões",
+    "idh": "0.568",
+    "summary": "País insular na Oceania, extrema diversidade cultural e linguística, rico em recursos naturais, mas subdesenvolvido."
+  },
+  "Poland": {
+    "name": "Polônia",
+    "population": "~37,7 milhões",
+    "pib": "US$ 750 bilhões",
+    "idh": "0.881",
+    "summary": "País na Europa Central, membro da UE e OTAN, economia dinâmica, papel importante no apoio à Ucrânia."
+  },
+  "Puerto Rico": {
+    "name": "Porto Rico",
+    "population": "~3,2 milhões",
+    "pib": "US$ 110 bilhões",
+    "idh": "N/A",
+    "summary": "Território não incorporado (Commonwealth) dos EUA no Caribe, debate contínuo sobre status político, desafios econômicos."
+  },
+  "North Korea": {
+    "name": "Coreia do Norte",
+    "population": "~26 milhões",
+    "pib": "US$ 16-40 bilhões (estimativas variam muito)",
+    "idh": "N/A",
+    "summary": "República Popular Democrática, regime totalitário isolado, programa nuclear, graves problemas de direitos humanos e pobreza."
+  },
+  "Portugal": {
+    "name": "Portugal",
+    "population": "~10,2 milhões",
+    "pib": "US$ 280 bilhões",
+    "idh": "0.866",
+    "summary": "República na Península Ibérica, membro da UE, popular destino turístico, economia em recuperação."
+  },
+  "Paraguay": {
+    "name": "Paraguai",
+    "population": "~7,4 milhões",
+    "pib": "US$ 45 bilhões",
+    "idh": "0.730",
+    "summary": "País sem litoral na América do Sul, grande produtor agrícola (soja) e de energia hidrelétrica (Itaipu)."
+  },
+  "Palestine": {
+    "name": "Palestina",
+    "population": "~5,3 milhões (Cisjordânia e Gaza)",
+    "pib": "US$ 18 bilhões (antes da guerra recente)",
+    "idh": "0.715",
+    "summary": "Estado observador não membro da ONU, compreende Cisjordânia (ocupada) e Faixa de Gaza (bloqueada/em guerra), busca de soberania."
+  },
+  "French Polynesia": {
+    "name": "Polinésia Francesa",
+    "population": "~280 mil",
+    "pib": "US$ 6 bilhões",
+    "idh": "N/A",
+    "summary": "Coletividade ultramarina francesa no Pacífico Sul (inclui Taiti), economia dependente do turismo e transferências da França."
+  },
+  "Qatar": {
+    "name": "Catar",
+    "population": "~2,7 milhões",
+    "pib": "US$ 236 bilhões",
+    "idh": "0.875",
+    "summary": "Emirado rico em gás natural na Península Arábica, alto PIB per capita, sediou a Copa do Mundo de 2022, influência regional (Al Jazeera)."
+  },
+  "Romania": {
+    "name": "Romênia",
+    "population": "~19 milhões",
+    "pib": "US$ 345 bilhões",
+    "idh": "0.827",
+    "summary": "País no sudeste da Europa (Balcãs), membro da UE e OTAN, economia em crescimento, desafios de corrupção."
+  },
+  "Russia": {
+    "name": "Rússia",
+    "population": "~144 milhões",
+    "pib": "US$ 2,06 trilhões",
+    "idh": "0.821",
+    "summary": "Maior país do mundo em área, potência nuclear, membro permanente do CS da ONU, economia baseada em hidrocarbonetos, em guerra com a Ucrânia."
+  },
+  "Rwanda": {
+    "name": "Ruanda",
+    "population": "~14 milhões",
+    "pib": "US$ 14 bilhões",
+    "idh": "0.548",
+    "summary": "País sem litoral na África Oriental, densamente povoado, em reconstrução após genocídio de 1994, busca ser centro tecnológico regional."
+  },
+  "Western Sahara": {
+    "name": "Saara Ocidental",
+    "population": "~600 mil",
+    "pib": "N/A",
+    "idh": "N/A",
+    "summary": "Território disputado no Norte da África, maior parte controlada por Marrocos, Frente Polisário busca independência."
+  },
+  "Saudi Arabia": {
+    "name": "Arábia Saudita",
+    "population": "~37 milhões",
+    "pib": "US$ 1,1 trilhão",
+    "idh": "0.896",
+    "summary": "Reino absolutista na Península Arábica, maior exportador de petróleo do mundo, berço do Islã, passando por reformas sociais e econômicas (Visão 2030)."
+  },
+  "Sudan": {
+    "name": "Sudão",
+    "population": "~48 milhões",
+    "pib": "US$ 40 bilhões (antes do conflito recente)",
+    "idh": "0.508",
+    "summary": "País no Nordeste da África, enfrenta guerra civil devastadora entre facções militares."
+  },
+  "South Sudan": {
+    "name": "Sudão do Sul",
+    "population": "~11 milhões",
+    "pib": "US$ 3 bilhões",
+    "idh": "0.381",
+    "summary": "País mais jovem do mundo (independência em 2011), sem litoral, rico em petróleo, mas devastado por guerra civil e fome."
+  },
+  "Senegal": {
+    "name": "Senegal",
+    "population": "~18 milhões",
+    "pib": "US$ 31 bilhões",
+    "idh": "0.517",
+    "summary": "País na costa da África Ocidental, considerado uma das democracias mais estáveis da região, economia baseada em agricultura, pesca e serviços."
+  },
+  "Singapore": {
+    "name": "Singapura",
+    "population": "~5,6 milhões",
+    "pib": "US$ 501 bilhões",
+    "idh": "0.949",
+    "summary": "Cidade-estado insular no Sudeste Asiático, centro financeiro e de transporte global, conhecida pela eficiência e planejamento urbano."
+  },
+  "Solomon Islands": {
+    "name": "Ilhas Salomão",
+    "population": "~740 mil",
+    "pib": "US$ 1,7 bilhão",
+    "idh": "0.562",
+    "summary": "Nação insular na Melanésia (Oceania), leste de Papua-Nova Guiné, economia dependente de extração de madeira e ajuda externa, tensões geopolíticas."
+  },
+  "Sierra Leone": {
+    "name": "Serra Leoa",
+    "population": "~8,8 milhões",
+    "pib": "US$ 4 bilhões",
+    "idh": "0.458",
+    "summary": "País da África Ocidental, rico em diamantes, em recuperação de guerra civil e epidemia de Ebola."
+  },
+  "El Salvador": {
+    "name": "El Salvador",
+    "population": "~6,3 milhões",
+    "pib": "US$ 34 bilhões",
+    "idh": "0.674",
+    "summary": "Menor e mais densamente povoado país da América Central continental, governo adotou Bitcoin como moeda legal, combate a gangues."
+  },
+  "San Marino": {
+    "name": "San Marino",
+    "population": "~34 mil",
+    "pib": "US$ 2 bilhões",
+    "idh": "N/A",
+    "summary": "Microestado que é um enclave dentro da Itália, república mais antiga do mundo, economia baseada em finanças, indústria e turismo."
+  },
+  "Somalia": {
+    "name": "Somália",
+    "population": "~18 milhões",
+    "pib": "US$ 11 bilhões",
+    "idh": "N/A",
+    "summary": "País no Chifre da África, enfrenta décadas de conflito, pirataria (em declínio), seca e instabilidade governamental (governo federal fraco)."
+  },
+  "Saint Pierre and Miquelon": {
+    "name": "São Pedro e Miquelão",
+    "population": "~6 mil",
+    "pib": "US$ 200 milhões (estimativa)",
+    "idh": "N/A",
+    "summary": "Coletividade ultramarina autônoma da França, na costa do Canadá (Atlântico Norte), última remanescente da Nova França."
+  },
+  "Serbia": {
+    "name": "Sérvia",
+    "population": "~6,7 milhões",
+    "pib": "US$ 75 bilhões",
+    "idh": "0.805",
+    "summary": "País balcânico sem litoral, candidato à UE, mantém laços com a Rússia, não reconhece a independência do Kosovo."
+  },
+  "Sao Tome and Principe": {
+    "name": "São Tomé e Príncipe",
+    "population": "~230 mil",
+    "pib": "US$ 550 milhões",
+    "idh": "0.613",
+    "summary": "Nação insular lusófona no Golfo da Guiné, economia dependente de cacau e ajuda externa, potencial petrolífero explorado."
+  },
+  "Suriname": {
+    "name": "Suriname",
+    "population": "~620 mil",
+    "pib": "US$ 3,6 bilhões",
+    "idh": "0.714",
+    "summary": "País na costa atlântica da América do Sul, ex-colônia holandesa, economia baseada em mineração (bauxita, ouro, petróleo)."
+  },
+  "Slovakia": {
+    "name": "Eslováquia",
+    "population": "~5,4 milhões",
+    "pib": "US$ 133 bilhões",
+    "idh": "0.855",
+    "summary": "País sem litoral na Europa Central, membro da UE e da Zona do Euro, forte indústria automobilística."
+  },
+  "Slovenia": {
+    "name": "Eslovênia",
+    "population": "~2,1 milhões",
+    "pib": "US$ 69 bilhões",
+    "idh": "0.926",
+    "summary": "País alpino/balcânico, ex-república iugoslava, membro da UE e Zona do Euro, economia desenvolvida."
+  },
+  "Sweden": {
+    "name": "Suécia",
+    "population": "~10,5 milhões",
+    "pib": "US$ 596 bilhões",
+    "idh": "0.952",
+    "summary": "Reino escandinavo, membro da UE e OTAN, conhecido por estado de bem-estar social, inovação e indústria (Volvo, IKEA)."
+  },
+  "Eswatini": {
+    "name": "Essuatíni (antiga Suazilândia)",
+    "population": "~1,2 milhão",
+    "pib": "US$ 4,8 bilhões",
+    "idh": "0.610",
+    "summary": "Pequeno reino sem litoral na África Austral (enclave parcial na África do Sul), última monarquia absoluta da África, alta prevalência de HIV."
+  },
+  "Sint Maarten": {
+    "name": "São Martinho (parte holandesa)",
+    "population": "~43 mil",
+    "pib": "US$ 1,1 bilhão",
+    "idh": "N/A",
+    "summary": "País constituinte do Reino dos Países Baixos, ocupa a parte sul da ilha caribenha de São Martinho, dependente do turismo."
+  },
+  "Seychelles": {
+    "name": "Seicheles",
+    "population": "~100 mil",
+    "pib": "US$ 1,8 bilhão",
+    "idh": "0.802",
+    "summary": "Arquipélago no Oceano Índico, nordeste de Madagascar, economia focada em turismo de luxo e pesca."
+  },
+  "Syria": {
+    "name": "Síria",
+    "population": "~23 milhões",
+    "pib": "US$ 12 bilhões (estimativa, devastado pela guerra)",
+    "idh": "0.593",
+    "summary": "País no Levante (Oriente Médio), devastado por longa guerra civil, governo autoritário, crise humanitária."
+  },
+  "Turks and Caicos Islands": {
+    "name": "Ilhas Turcas e Caicos",
+    "population": "~46 mil",
+    "pib": "US$ 1,2 bilhão",
+    "idh": "N/A",
+    "summary": "Território Britânico Ultramarino no Caribe, sudeste das Bahamas, centro financeiro offshore e destino turístico."
+  },
+  "Chad": {
+    "name": "Chade",
+    "population": "~18 milhões",
+    "pib": "US$ 12 bilhões",
+    "idh": "0.394",
+    "summary": "País sem litoral na África Central (Sahel), economia dependente de petróleo, enfrenta instabilidade política e desafios de segurança."
+  },
+  "Togo": {
+    "name": "Togo",
+    "population": "~9 milhões",
+    "pib": "US$ 9 bilhões",
+    "idh": "0.547",
+    "summary": "País estreito na África Ocidental, exportador de fosfato e produtos agrícolas, governado pela mesma família por décadas."
+  },
+  "Thailand": {
+    "name": "Tailândia",
+    "population": "~71 milhões",
+    "pib": "US$ 512 bilhões",
+    "idh": "0.803",
+    "summary": "Reino no Sudeste Asiático, popular destino turístico, economia industrializada (automóveis, eletrônicos), instabilidade política recorrente."
+  },
+  "Tajikistan": {
+    "name": "Tajiquistão",
+    "population": "~10 milhões",
+    "pib": "US$ 12 bilhões",
+    "idh": "0.685",
+    "summary": "País montanhoso sem litoral na Ásia Central, economia dependente de remessas e exportação de alumínio e algodão."
+  },
+  "Turkmenistan": {
+    "name": "Turcomenistão",
+    "population": "~6,5 milhões",
+    "pib": "US$ 56 bilhões",
+    "idh": "0.745",
+    "summary": "País desértico na Ásia Central, vastas reservas de gás natural, governo altamente autoritário e isolado."
+  },
+  "Timor-Leste": {
+    "name": "Timor-Leste",
+    "population": "~1,3 milhão",
+    "pib": "US$ 2 bilhões",
+    "idh": "0.566",
+    "summary": "País insular lusófono no Sudeste Asiático, ocupa parte da ilha de Timor, economia dependente de petróleo e gás, desafios de desenvolvimento."
+  },
+  "Tonga": {
+    "name": "Tonga",
+    "population": "~107 mil",
+    "pib": "US$ 500 milhões",
+    "idh": "0.739",
+    "summary": "Reino polinésio no Pacífico Sul, composto por mais de 170 ilhas, economia dependente de remessas, agricultura e turismo."
+  },
+  "Trinidad and Tobago": {
+    "name": "Trindade e Tobago",
+    "population": "~1,5 milhão",
+    "pib": "US$ 30 bilhões",
+    "idh": "0.814",
+    "summary": "República insular no Caribe, sul de Granada, economia baseada em petróleo e gás natural, rica cultura (carnaval)."
+  },
+  "Tunisia": {
+    "name": "Tunísia",
+    "population": "~12,4 milhões",
+    "pib": "US$ 49 bilhões",
+    "idh": "0.732",
+    "summary": "País no Norte da África, berço da Primavera Árabe, enfrenta desafios econômicos e retrocesso democrático."
+  },
+  "Turkey": {
+    "name": "Turquia",
+    "population": "~85 milhões",
+    "pib": "US$ 1,15 trilhão",
+    "idh": "0.855",
+    "summary": "País transcontinental (Europa/Ásia), membro da OTAN e candidato à UE, economia emergente, papel geopolítico importante, governo cada vez mais autoritário."
+  },
+  "Tuvalu": {
+    "name": "Tuvalu",
+    "population": "~11 mil",
+    "pib": "US$ 63 milhões",
+    "idh": "N/A",
+    "summary": "Nação insular polinésia de atóis baixos no Pacífico, extremamente vulnerável à elevação do nível do mar, ganha receita com domínio de internet (.tv)."
+  },
+  "Taiwan": {
+    "name": "Taiwan",
+    "population": "~23,6 milhões",
+    "pib": "US$ 760 bilhões",
+    "idh": "N/A (muito alto, comparável a 0.92)",
+    "summary": "Ilha autogovernada na Ásia Oriental, reivindicada pela China, democracia vibrante, líder mundial em semicondutores (TSMC)."
+  },
+  "Tanzania": {
+    "name": "Tanzânia",
+    "population": "~67 milhões",
+    "pib": "US$ 85 bilhões",
+    "idh": "0.532",
+    "summary": "País da África Oriental, conhecido pela vida selvagem (Serengeti, Kilimanjaro), economia baseada em agricultura e turismo."
+  },
+  "Uganda": {
+    "name": "Uganda",
+    "population": "~48 milhões",
+    "pib": "US$ 52 bilhões",
+    "idh": "0.550",
+    "summary": "País sem litoral na África Oriental, economia agrícola, abriga muitos refugiados, desafios de direitos humanos."
+  },
+  "Ukraine": {
+    "name": "Ucrânia",
+    "population": "~38 milhões (afetada pela guerra)",
+    "pib": "US$ 160 bilhões (afetado pela guerra)",
+    "idh": "0.734",
+    "summary": "País na Europa Oriental, segundo maior da Europa em área, em guerra defensiva contra invasão russa, busca integração euro-atlântica."
+  },
+  "Uruguay": {
+    "name": "Uruguai",
+    "population": "~3,4 milhões",
+    "pib": "US$ 76 bilhões",
+    "idh": "0.830",
+    "summary": "País na América do Sul, entre Brasil e Argentina, conhecido pela estabilidade política e social, agricultura forte."
+  },
+  "United States of America": {
+    "name": "Estados Unidos da América",
+    "population": "~335 milhões",
+    "pib": "US$ 27,4 trilhões",
+    "idh": "0.927",
+    "summary": "Maior economia do mundo, potência militar e cultural global, república federal com diversidade geográfica e social."
+  },
+  "Uzbekistan": {
+    "name": "Uzbequistão",
+    "population": "~36 milhões",
+    "pib": "US$ 90 bilhões",
+    "idh": "0.727",
+    "summary": "País duplamente sem litoral na Ásia Central, o mais populoso da região, passando por reformas econômicas e sociais."
+  },
+  "Vatican City": {
+    "name": "Vaticano",
+    "population": "~800",
+    "pib": "N/A",
+    "idh": "N/A",
+    "summary": "Cidade-estado que é um enclave dentro de Roma, Itália. Sede mundial da Igreja Católica Romana, menor estado soberano do mundo."
+  },
+  "Saint Vincent and the Grenadines": {
+    "name": "São Vicente e Granadinas",
+    "population": "~104 mil",
+    "pib": "US$ 1 bilhão",
+    "idh": "0.772",
+    "summary": "Nação insular caribenha, composta por São Vicente e uma cadeia de ilhas menores (Granadinas), turismo e agricultura."
+  },
+  "Venezuela": {
+    "name": "Venezuela",
+    "population": "~28,8 milhões",
+    "pib": "US$ 90 bilhões (estimativa volátil)",
+    "idh": "0.690",
+    "summary": "País na costa norte da América do Sul, possui as maiores reservas de petróleo do mundo, mas enfrenta profunda crise econômica, política e humanitária."
+  },
+  "British Virgin Islands": {
+    "name": "Ilhas Virgens Britânicas",
+    "population": "~31 mil",
+    "pib": "US$ 1,4 bilhão",
+    "idh": "N/A",
+    "summary": "Território Britânico Ultramarino no Caribe, importante centro financeiro offshore e destino náutico."
+  },
+  "United States Virgin Islands": {
+    "name": "Ilhas Virgens Americanas",
+    "population": "~105 mil",
+    "pib": "US$ 4,3 bilhões",
+    "idh": "N/A",
+    "summary": "Território não incorporado dos EUA no Caribe, economia baseada no turismo."
+  },
+  "Vietnam": {
+    "name": "Vietnã",
+    "population": "~99 milhões",
+    "pib": "US$ 433 bilhões",
+    "idh": "0.726",
+    "summary": "País socialista no Sudeste Asiático, economia de rápido crescimento com forte setor manufatureiro."
+  },
+  "Vanuatu": {
+    "name": "Vanuatu",
+    "population": "~330 mil",
+    "pib": "US$ 1,1 bilhão",
+    "idh": "0.614",
+    "summary": "Nação insular vulcânica na Melanésia (Pacífico Sul), vulnerável a desastres naturais, economia baseada em agricultura, turismo e ajuda externa."
+  },
+  "Wallis and Futuna": {
+    "name": "Ilhas Wallis e Futuna",
+    "population": "~11 mil",
+    "pib": "US$ 60 milhões (estimativa)",
+    "idh": "N/A",
+    "summary": "Coletividade ultramarina francesa na Polinésia, economia dependente de subsistência e transferências da França."
+  },
+  "Samoa": {
+    "name": "Samoa",
+    "population": "~225 mil",
+    "pib": "US$ 900 milhões",
+    "idh": "0.700",
+    "summary": "Nação insular polinésia no Pacífico Sul, economia dependente de agricultura, pesca, remessas e turismo."
+  },
+  "Yemen": {
+    "name": "Iêmen",
+    "population": "~34 milhões",
+    "pib": "US$ 21 bilhões (devastado pela guerra)",
+    "idh": "0.424",
+    "summary": "País no sul da Península Arábica, devastado por guerra civil prolongada e crise humanitária, um dos mais pobres do mundo árabe."
+  },
+  "South Africa": {
+    "name": "África do Sul",
+    "population": "~60 milhões",
+    "pib": "US$ 399 bilhões",
+    "idh": "0.717",
+    "summary": "País no extremo sul da África, economia mais industrializada do continente, enfrenta altos níveis de desigualdade, desemprego e criminalidade pós-apartheid."
+  },
+  "Zambia": {
+    "name": "Zâmbia",
+    "population": "~20 milhões",
+    "pib": "US$ 30 bilhões",
+    "idh": "0.569",
+    "summary": "País sem litoral na África Austral, rico em cobre, enfrenta desafios de dívida e desenvolvimento."
+  },
+  "Zimbabwe": {
+    "name": "Zimbábue",
+    "population": "~16,5 milhões",
+    "pib": "US$ 28 bilhões",
+    "idh": "0.593",
+    "summary": "País sem litoral na África Austral, rico em recursos naturais, mas enfrentando desafios econômicos e políticos de longa data."
   }
-  
+}

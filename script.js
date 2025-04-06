@@ -7,12 +7,12 @@ function initmap() {
     // Inicializa o mapa
     map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: 0, lng: 0 },
-        zoom: 2,
+        zoom: 3,
         mapTypeId: 'roadmap'
     });
 
     // Carrega geometrias dos países
-    map.data.loadGeoJson('countries.geo.json');
+    map.data.loadGeoJson('countries.json');
 
     // Estilo para os países
     map.data.setStyle({
@@ -23,7 +23,7 @@ function initmap() {
 
     // Evento de clique na geometria
     map.data.addListener('click', function (event) {
-        const countryName = event.feature.getProperty('name');
+        const countryName = event.feature.getProperty("ADMIN");
         showCountryInfo(countryName);
     });
 }
