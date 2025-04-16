@@ -11,15 +11,15 @@
 </head>
 <body>
     <div class="container">
+    
         <aside class="sidebar">
             <h1>OneGlobe 🌍</h1>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Notícias</a></li>
-                <li><a href="#">Eventos</a></li>
-                <li><a href="#">Sobre</a></li>
-            </ul>
+            <div class="search-wrapper">
+                <input type="text" id="searchInput" class="search-input" placeholder="Buscar país..." />
+                <button onclick="searchCountry()" class="search-btn">🔍</button>
+            </div>
         </aside>
+        
         <main class="map-container">
             <div id="map"></div>
         </main>
