@@ -1,30 +1,37 @@
-<!-- This is a simple HTML document that includes a Google Map. The map is centered on Belo Horizonte, Brazil. -->
-<!-- The map is initialized using the Google Maps JavaScript API. -->
-
+<!-- OneGlobe - Mapa Interativo de Países -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OneGlobe</title>
+    <!-- Link para estilos principais -->
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+    <!-- Container principal -->
     <div class="container">
-    
+        <!-- Barra lateral -->
         <aside class="sidebar">
             <h1>OneGlobe 🌍</h1>
+            <p>Explore o mundo com nosso mapa interativo. Clique ou pesquise um país para ver mais informações, e notícias relevantes e atuais de cada país ao redor do nosso globo.</p>
+
+            <!-- Campo de busca de país -->
             <div class="search-wrapper">
-                <input type="text" id="searchInput" class="search-input" placeholder="Buscar país..." />
-                <button onclick="searchCountry()" class="search-btn">🔍</button>
+                <input type="text" id="searchInput" class="search-input" placeholder="Buscar país..." aria-label="Pesquisar país" />
+                <button onclick="searchCountry()" class="search-btn" aria-label="Buscar">🔍</button>
             </div>
         </aside>
         
+        <!-- Área do mapa interativo -->
         <main class="map-container">
             <div id="map"></div>
         </main>
     </div>
+
+    <!-- Script de funcionalidades do mapa -->
     <script src="script.js"></script>
+    <!-- Google Maps API (inicia chama initmap) -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0Vm8JyrTEuvG0ZnjMOV78fF4fnBYwppQ&callback=initmap" async defer></script>
 </body>
 </html>
